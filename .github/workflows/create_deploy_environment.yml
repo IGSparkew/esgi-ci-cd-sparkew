@@ -3,6 +3,7 @@ on:
   - push
 jobs:
   dire_bonjour:
+    needs: [hadolint]
     runs-on: ubuntu-22.04
     env:
       IMAGE_NAME: "mynode:19"
