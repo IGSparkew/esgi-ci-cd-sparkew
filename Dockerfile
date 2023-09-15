@@ -1,5 +1,5 @@
 # Dockerfile
 FROM node:19
 WORKDIR /app
-COPY ./ 
+COPY ./ /app
 RUN npm install
